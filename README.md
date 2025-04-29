@@ -1,104 +1,48 @@
 # Projeto Integrador - Modelo
-*(Coloque aqui o nome do seu projeto.)*
+*Roma Beauty*
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
-*(Coloque aqui uma breve descrição do seu projeto.)*
+*Nosso objetivo com o projeto visa construir uma aplicação direcionada a comercialização de produtos do mundo estético. Onde usaremos ferramentas ensinadas durante o curso integrado em informática para a internet, tais mecanismos responsáveis por conectar o mundo dos cosméticos de forma diligente e eficiente com os usuários. Além disso, proporcionar um vínculo de confiança e interação com o cliente por meio de variadas funcionalidades. Assim, facilitando o acesso através da acessibilidade que a digitalização nos proporciona.*
 
 **IMPORTANTE**: [**Cadastre seu projeto nesse link**](https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?usp=sharing).
 
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Aluno1](github.com/aluno1)
-- [Aluno2](github.com/aluno2)
+- Fernanda Francine de Freitas
+- Gustavo Muraro Soares
+- Maria Helena Gonçalves da Costa
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação (esse documento)](https://github.com/RomaBeauty/projeto-pi/edit/main/README.md)
 -   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
 
-**Como usar esse modelo para o Projeto Integrador**
-
-*(Essa parte pode ser apagada depois.)*
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instaladas as seguintes extensões:
-   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-5. Edite o arquivo README.md com as informações do seu projeto.
-
 # 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
-**1.1 Modelos de Sistemas**
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
 
 **1.1.1 Ponto de Vendas (PDV)**
 
-**Gerenciamento de vendas para uma padaria**
+**Gerenciamento de vendas para a área de cosméticos**
 
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
+A Roma Beauty é uma loja online de cosméticos que busca oferecer uma experiência de compra prática, moderna e intuitiva para seus clientes. A aplicação permitirá que os usuários naveguem entre diversos produtos de beleza, visualizem informações completas (como preço, composição, uso e variações) e finalizem suas compras de maneira rápida e segura. Além disso, contará com funcionalidades como cadastro de usuários, lista de favoritos, diferentes formas de pagamento (cartão, Pix e boleto) e acompanhamento de pedidos.
 
-**1.1.2 Empréstimo**
-
-**Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-**1.1.3 Ordem de Serviço (O.S.)**
-
-**Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
+Motivo da Escolha:
+Escolhemos desenvolver a aplicação da Roma Beauty porque ela reúne elementos fundamentais para o aprendizado e aplicação prática de conceitos importantes em projetos de sistemas, como cadastro de usuários, gerenciamento de produtos, processos de compra e integração de métodos de pagamento. Além disso, o setor de cosméticos está em constante crescimento, tornando o projeto relevante, aplicável ao mercado real e permitindo a criação de uma experiência de usuário moderna e bem estruturada.
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
+Ana é responsável por uma loja online especializada em produtos de cosméticos. Com o tempo, percebeu que muitas desistências de compra e avaliações negativas não estavam ligadas à qualidade dos produtos, mas sim à dificuldade dos clientes em acessar informações claras e concluir suas compras com facilidade.
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+Para solucionar esses problemas, Ana e sua equipe decidiram desenvolver uma aplicação moderna, onde os usuários possam visualizar de forma prática e organizada todos os cosméticos disponíveis, com informações detalhadas sobre preço, composição, descrição e desempenho dos produtos. Além disso, o sistema deverá proporcionar uma jornada de compra simples e eficiente, acompanhando todo o processo até a entrega.
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+Pensando na diversidade de dispositivos usados pelos clientes, a aplicação será responsiva, garantindo uma navegação fluida e livre de poluição visual, independentemente do tamanho da tela. Dessa forma, Ana busca aumentar a confiança dos consumidores, reduzir desistências e melhorar a avaliação geral da loja no mercado.
 
 # 3. Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+A Roma Beauty é uma loja online de cosméticos que busca oferecer uma experiência de compra prática, moderna e intuitiva para seus clientes. A aplicação permitirá que os usuários naveguem entre diversos produtos de beleza, visualizem informações completas (como preço, composição, uso e variações) e finalizem suas compras de maneira rápida e segura. Além disso, contará com funcionalidades como cadastro de usuários, lista de favoritos, diferentes formas de pagamento (cartão, Pix e boleto) e acompanhamento de pedidos.
 
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Motivo da Escolha:
+Escolhemos desenvolver a aplicação da Roma Beauty porque ela reúne elementos fundamentais para o aprendizado e aplicação prática de conceitos importantes em projetos de sistemas, como cadastro de usuários, gerenciamento de produtos, processos de compra e integração de métodos de pagamento. Além disso, o setor de cosméticos está em constante crescimento, tornando o projeto relevante, aplicável ao mercado real e permitindo a criação de uma experiência de usuário moderna e bem estruturada.
 
 # 4. Modelagem de Dados
 
