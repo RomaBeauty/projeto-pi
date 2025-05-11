@@ -46,10 +46,8 @@ Escolhemos desenvolver a aplicação da Roma Beauty porque ela reúne elementos 
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
-
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
-
+![Captura de tela 2025-05-11 110035](https://github.com/user-attachments/assets/d31f0e4b-67f8-4d1a-bd87-0f620a9a94eb)
+[modelagem.pdf](https://github.com/user-attachments/files/20149573/modelagem.pdf)
 
 
 # 4. Regras de negócio
