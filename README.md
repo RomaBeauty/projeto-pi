@@ -15,7 +15,7 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](https://github.com/RomaBeauty/projeto-pi/edit/main/README.md)
--   Backend: [Repositório](https://github.com/RomaBeauty/roma-beauty-backend) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/RomaBeauty/roma-beauty-backend) e [Publicação](https://roma-beauty-backend-juqs.onrender.com)
 -   Frontend: [Repositório](https://github.com/RomaBeauty/roma-beauty-frontend) e [Publicação](roma-beautyfrontend.vercel.app/)
 
 # 1. Desenvolvimento
