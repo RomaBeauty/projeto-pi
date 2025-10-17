@@ -24,31 +24,25 @@ Links do projeto:
 
 **Gerenciamento de vendas para a área de cosméticos**
 
-A Roma Beauty é uma loja online de cosméticos que busca oferecer uma experiência de compra prática, moderna e intuitiva para seus clientes. A aplicação permitirá que os usuários naveguem entre diversos produtos de beleza, visualizem informações completas (como preço, composição, uso e variações) e finalizem suas compras de maneira rápida e segura. Além disso, contará com funcionalidades como cadastro de usuários, lista de favoritos, diferentes formas de pagamento (cartão, Pix e boleto) e acompanhamento de pedidos.
+A Roma Beauty é uma loja online de cosméticos que busca oferecer uma experiência de compra prática, moderna e intuitiva para seus clientes. A aplicação permitirá que os usuários naveguem entre diversos produtos de beleza, visualizem informações completas (como preço, composição, uso e variações) e finalizem suas compras de maneira rápida e segura. Além disso, contará com funcionalidades como cadastro de usuários, lista de favoritos, diferentes formas de pagamento (cartão, Pix e boleto).
 
 Motivo da Escolha:
 Escolhemos desenvolver a aplicação da Roma Beauty porque ela reúne elementos fundamentais para o aprendizado e aplicação prática de conceitos importantes em projetos de sistemas, como cadastro de usuários, gerenciamento de produtos, processos de compra e integração de métodos de pagamento. Além disso, o setor de cosméticos está em constante crescimento, tornando o projeto relevante, aplicável ao mercado real e permitindo a criação de uma experiência de usuário moderna e bem estruturada.
 
 # 2. Situação Problema
 
-Ana é responsável por uma loja online especializada em produtos de cosméticos. Com o tempo, percebeu que muitas desistências de compra e avaliações negativas não estavam ligadas à qualidade dos produtos, mas sim à dificuldade dos clientes em acessar informações claras e concluir suas compras com facilidade.
+Hana é responsável por uma loja online especializada em produtos de cosméticos. Com o tempo, percebeu que muitas desistências de compra e avaliações negativas não estavam ligadas à qualidade dos produtos, mas sim à dificuldade dos clientes em acessar informações claras e concluir suas compras com facilidade.
 
-Para solucionar esses problemas, Ana e sua equipe decidiram desenvolver uma aplicação moderna, onde os usuários possam visualizar de forma prática e organizada todos os cosméticos disponíveis, com informações detalhadas sobre preço, composição, descrição e desempenho dos produtos. Além disso, o sistema deverá proporcionar uma jornada de compra simples e eficiente, acompanhando todo o processo até a entrega.
+Para solucionar esses problemas, Hana e sua equipe decidiram desenvolver uma aplicação moderna, onde os usuários possam visualizar de forma prática e organizada todos os cosméticos disponíveis, com informações detalhadas sobre preço, composição, descrição e desempenho dos produtos. Além disso, o sistema deverá proporcionar uma jornada de compra simples e eficiente.
 
-Pensando na diversidade de dispositivos usados pelos clientes, a aplicação será responsiva, garantindo uma navegação fluida e livre de poluição visual, independentemente do tamanho da tela. Dessa forma, Ana busca aumentar a confiança dos consumidores, reduzir desistências e melhorar a avaliação geral da loja no mercado.
+Pensando na diversidade de dispositivos usados pelos clientes, a aplicação será responsiva, garantindo uma navegação fluida e livre de poluição visual, independentemente do tamanho da tela. Dessa forma, Hana busca aumentar a confiança dos consumidores, reduzir desistências e melhorar a avaliação geral da loja no mercado.
 
 # 3. Descrição da proposta
 
-A Roma Beauty é uma loja online de cosméticos que busca oferecer uma experiência de compra prática, moderna e intuitiva para seus clientes. A aplicação permitirá que os usuários naveguem entre diversos produtos de beleza, visualizem informações completas (como preço, composição, uso e variações) e finalizem suas compras de maneira rápida e segura. Além disso, contará com funcionalidades como cadastro de usuários, lista de favoritos, diferentes formas de pagamento (cartão, Pix e boleto) e acompanhamento de pedidos.
+A Roma Beauty é uma loja online de cosméticos que busca oferecer uma experiência de compra prática, moderna e intuitiva para seus clientes. A aplicação permitirá que os usuários naveguem entre diversos produtos de beleza, visualizem informações completas (como preço, composição, uso e variações) e finalizem suas compras de maneira rápida e segura. Além disso, contará com funcionalidades como cadastro de usuários, lista de favoritos, diferentes formas de pagamento (cartão, Pix e boleto).
 
 Motivo da Escolha:
 Escolhemos desenvolver a aplicação da Roma Beauty porque ela reúne elementos fundamentais para o aprendizado e aplicação prática de conceitos importantes em projetos de sistemas, como cadastro de usuários, gerenciamento de produtos, processos de compra e integração de métodos de pagamento. Além disso, o setor de cosméticos está em constante crescimento, tornando o projeto relevante, aplicável ao mercado real e permitindo a criação de uma experiência de usuário moderna e bem estruturada.
-
-# 4. Modelagem de Dados
-
-![Captura de tela 2025-05-11 110035](https://github.com/user-attachments/assets/d31f0e4b-67f8-4d1a-bd87-0f620a9a94eb)
-[modelagem.pdf](https://github.com/user-attachments/files/20149573/modelagem.pdf)
-
 
 # 4. Regras de negócio
 (*Nessa parte a equipe deve descrever as regras de negócio que serão implementadas no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
@@ -117,65 +111,6 @@ orçamento registradas, a atendente deve imprimir o orçamento e
 repassar ao cliente para aprovação, e caso o cliente aprovar, a atendente deve solicitar a sua assinatura para aprovar a execução do serviço.
 - **RN08 – Abertura de OS:** Com o atendimento aprovado pelo cliente, a atendente deverá inserir os dados do cliente e do orçamento em um novo documento, para registros internos, realizando a abertura da OS.
 - **RN09 – Relatório de Fluxo de Caixa:** O relatório de fluxo de caixa será permitido somente para o administrador.
-
-# 5. Requisitos funcionais
-
-## Entrada
-
-- **RF001 - Cadastro de clientes:** O sistema deve permitir o registro de novos clientes com os dados necessários para autenticação e realização de compras.  
-  - **Dados:** nome, CPF, e-mail, senha, endereço, telefone.  
-  - **Usuários:** cliente.
-
-- **RF002 - Autenticação de usuário:** O sistema deve permitir a validação das credenciais de acesso (e-mail e senha) para realizar login seguro.  
-  - **Dados:** e-mail, senha.  
-  - **Usuários:** cliente.
-
-## Processamento
-
-
-- **RF003 - Visualização de catálogo de produtos:** O sistema deve permitir a navegação pelos produtos com imagens, preços, descrições e variações disponíveis.  
-  - **Dados:** nome do produto, imagem, preço, variações, descrição.  
-  - **Usuários:** cliente.
-
-- **RF004 - Gerenciamento de favoritos:** O sistema deve permitir que o cliente adicione ou remova produtos da sua lista de favoritos.  
-  - **Dados:** ID do cliente, ID do produto.  
-  - **Usuários:** cliente.
-
-- **RF005 - Gerenciamento do carrinho de compras:** O sistema deve permitir que o cliente adicione ou remova produtos do carrinho, defina a quantidade e visualize o preço final.  
-  - **Dados:** produto, variação, quantidade, preço.  
-  - **Usuários:** cliente.
-
-- **RF006 - Aplicação de cupons:** O sistema deve permitir a validação de cupons promocionais inseridos, aplicando descontos ao pedido.  
-  - **Dados:** código do cupom, validade, valor/desconto.  
-  - **Usuários:** cliente.
- 
-- **RF007 - Cadastro de endereço:** O sistema deve permitir que o cliente cadastre e edite seus endereços.  
-  - **Dados:** CEP, rua, número, complemento, cidade, estado.  
-  - **Usuários:** cliente.
-
-- **RF008 - Finalização de pedido:** O sistema deve permitir que o cliente revise o pedido, escolha o endereço e a forma de pagamento, e conclua a compra.  
-  - **Dados:** produtos no carrinho, endereço, forma de pagamento, cupom aplicado (opcional).  
-  - **Usuários:** cliente.
-
-
-## Saída
-
-- **RF009 - Rastreamento de pedidos:** O sistema deve permitir a exibição do status atualizado de cada pedido (processando, enviado, entregue).  
-  - **Dados:** status atual, código do pedido, data.  
-  - **Usuários:** cliente.
-
-- **RF010 - Busca de produtos:** O sistema deve permitir a busca por produtos com base em nome, categoria, composição ou faixa de preço.  
-  - **Dados:** termos de busca, filtros selecionados.  
-  - **Usuários:** cliente.
-
-- **RF011 - Histórico de pedidos:** O sistema deve permitir o acesso ao histórico de pedidos realizados pelo cliente.  
-  - **Dados:** número do pedido, data, valor, produtos adquiridos.  
-  - **Usuários:** cliente.
-
-- **RF012 - Avaliação de produtos:** O sistema deve permitir que o cliente avalie os produtos adquiridos e a experiência de compra.  
-  - **Dados:** nota, comentário, ID do produto, ID do cliente.  
-  - **Usuários:** cliente.
-
 
 # 6. Requisitos não funcionais
 
@@ -467,8 +402,3 @@ entendimento).
 **Identificando a fronteira do sistema**
 
 ![Identificando a fronteira do sistema](img/dcu_identificando_a_fronteira_do_sistema.png "Identificando a fronteira do sistema")
-
----
-
-
-
